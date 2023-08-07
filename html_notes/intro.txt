@@ -1,0 +1,55 @@
+Internet builds a network infrastructure that allows
+people to connect with other from one place to another.
+
+The world wide web is an information system where 
+documents and others resources are available over 
+the internet.
+
+Documents are transferred via HTTP.
+
+HTTP --> HyperText Transfer Protocol.
+It allows to access any page that has been registered under 
+the HTTP protocol + Foundtion of communication on the 
+World Wide Web.
+
+It has a mechanism of Sending REQUEST / Accepting RESPONSES
+Eg :- 
+Request --> I would like this information please.
+Response --> Ok , here you go !
+
+How it works :- 
+You want to visit a webpage , maybe Youtube , you type in the url and 
+when you hit enter , it sends a request to the server as your are on the client side 
+then the server sees it, understands it and grants your request and the sever sends 
+a response back to the client and response contains all the web content relevant 
+to that webpage.
+
+What is Frontend and Backend ??
+
+Frontend --> Deals with Client Side.
+Backend --> Deals with Server Side.
+
+Can be easily understood by taking a restaurant example :-
+Customers --> Frontend.
+Waiters --> HTML Protocol / API (Taking requests and giving responses).
+Cookers --> Backend.
+
+There is almost 3 tools the webpage is constructed with , those are
+HTML , CSS , Javascript.
+
+What does HTML , CSS and Javascript Do ??
+
+Let's undestand this with an simple example :
+The PURPLE DINO DANCED
+PURPLE --> CSS (Adjective)
+DINO --> HTML (Nouns)
+DANCED --> JS (Verbs)
+
+To understand why do we need HTML , CSS ,JAVASCRIPT
+Understand the below example :- 
+
+HTML --> What is the entity all about ?
+CSS --> How do we describe the entity ?
+JAVASCRIPT --> What kind of actions does the entity do ?
+
+W3Schools , MDN --> Other Important Resources for Web

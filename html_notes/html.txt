@@ -1,0 +1,29 @@
+WHAT IS HTML ??
+
+HTML stands for HyperText Markup Language.
+
+If you want to highlight specific content that has some meaning to it or attaching 
+some interactive content such as links , images , etc.
+HTML will do that for you.
+
+To write HTML , we pcik from a set of standard elements that all browsers recognize
+Common Elements include :- 
+<p> element --> represents a paragraph of text.
+<h1> lement --> represents the main header on a page.
+<img> element --> embeds an image.
+<form> element --> represents a form.
+
+We create elements by writing tags.
+Most elements consist of an opening and closing tag.
+
+<p> --> Opening Tag.
+</p> --> Closing Tag.
+
+<p>I am a paragraph</p>
+
+Search W3Schools website to learn about more tags.
+
+You don't have to memorize each and every tag , only the important 
+ones.
+
+Use MDN Developer Network --> A tool for good web developers.

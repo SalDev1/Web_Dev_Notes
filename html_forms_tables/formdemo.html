@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <form action="/tacos">
+        <label for = "username">Enter A Username : </label>
+        <input type="text" placeholder="username" id = "username">
+
+        <p>
+            <label for="password">Enter A Password : </label>
+            <input type="password" placeholder="Your Password" id = "password">
+        </p>
+        <p>
+            <label for="email">Enter a Email : </label>
+            <input type="email" placeholder="Your Email" id = "email">
+        </p>
+
+        <button type = "button"> Regular Button (Won't Submit)</button>
+        <!-- Type 1 of submit button -->
+        <button>Submit !!!!</button>
+        <!-- Type 2 of submit button -->
+        <input type = "submit" value = "Click Me!" />
+    </form>
+
+    <div class="preference">
+        <label for = "cheese">Do you like cheese ??</label>
+        <input type = "checkbox" name ="cheese" id = "cheese">
+    </div>
+    <div class="preference">
+        <label for = "peas">Do you like peas ??</label>
+        <input type = "checkbox" name ="peas" id = "peas">
+    </div>
+</body>
+</html>
+
+<!-- 
+    The form element represents a document 
+    section containing interactive controls for 
+    submitting information.
+
+    The action attribute specifies WHERE the form
+    data should be sent.
+
+    The method attribute specifies which HTTP method should
+    be used (don't worry about this for now).
+
+    What goes inside of the form ?? 
+
+    <button> -> a clickable button to submit forms on the 
+    internet.
+
+    When you have a button inside of the form , it will act as a submit
+    button and sends an HTTP request through the form action + take the form
+    data along with it.
+
+    When you have a button outside of the form , it will act differently or
+    more like a normal button.
+    
+    Define the type of given button to make it behave as per your needs.
+
+    Another way of creating a submit button is by 
+    <input type = "submit">
+ -->

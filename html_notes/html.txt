@@ -26,4 +26,4 @@ Search W3Schools website to learn about more tags.
 You don't have to memorize each and every tag , only the important 
 ones.
 
-Use MDN Developer Network --> A tool for good web developers.
+Use MDN Developer Network --> A tool for good web developers

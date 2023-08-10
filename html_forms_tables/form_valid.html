@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Validation Demo</h2>
+    <form action="/dummy">
+        <label for = "first">Enter First Name</label>
+        <input type = "text" name = "first" id = "first" required>
+
+        <p>
+            <label for = "username">Enter Username</label>
+            <input type = "text" name = "username" id = "username" minlength="5" maxlength="20" required>
+        </p>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+<!--
+    Form Validation , is adding constraints to the elements that we have 
+    defined within the form.
+
+    Adding the required attribute allows you to add the constraint 
+    required to the elements declared in the form.
+
+    Attributes :- required , minlength , pattern
+  -->

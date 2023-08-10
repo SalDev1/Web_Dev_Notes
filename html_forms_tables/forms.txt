@@ -1,0 +1,20 @@
+What are FORMS ??
+
+<form> element is itself a virtual container that 
+doesn't have any visual impact.
+
+We then fill the form with a collection of inputs ,
+checkboxes , buttons , etc.
+
+<input> 
+1] The input element is used to create a variety of different
+form controls.
+2] We have 20+ possible types of inputs , ranging from data 
+pickers to checkboxes.
+3] The type attributes is where the magicx happens.  Changinng type 
+dramatically alters the input's behaviour and appearance.
+
+<label> --> represents a caption for an item in a user interface.
+
+Connection between the label and input is define by two attributes 
+id(input) and for(label)

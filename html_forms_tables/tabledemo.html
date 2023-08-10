@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavist Bird Table</title>
+</head>
+<body>
+    <h2>Heaviest Tables</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Animal</th>
+                <th>Average Mass</th>
+                <th>Maximum Mass</th>
+                <th>Flighted</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ostrich</td>
+                <td>104</td>
+                <td>156.8</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Somali Ostrich</td>
+                <td>110</td>
+                <td>90</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Domestic Turkey</td>
+                <td>13.5</td>
+                <td>39</td>
+                <td>Yes</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>V2</h2>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Animal</th>
+                <th colspan="2">Average Mass</th>
+                <th rowspan="2">Flighted</th>
+            </tr>
+            
+            <tr>
+                <th>KG</th>
+                <th>LB</th>
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr>
+                <td>Ostrich</td>
+                <td>104</td>
+                <td>230</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Somali Ostrich</td>
+                <td>110</td>
+                <td>230</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Domestic Turkey</td>
+                <td>13.5</td>
+                <td>29.8</td>
+                <td>Yes</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
+
+<!-- 
+    td -> specificing col or cell of a table.
+    If you want to push details into a row.
+
+    First define the tr tag(row tag), then between the tr tag
+    define the td(column tag) (no of column and data you want to have).
+
+    <th> -> helps you define a heading of the table and use it after defining
+    the tr tag.
+
+    <thead> -> highlights the important headings defined in a table.
+
+    If you want to put one or more attributes / subheadings in the an certain 
+    col ,use colspan and rowspan.
+
+    rowspan == how many rows you want the td to take.
+    colspan == how many cols you want the td to take.
+ -->

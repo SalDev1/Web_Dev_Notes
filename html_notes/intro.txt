@@ -9,7 +9,7 @@ Documents are transferred via HTTP.
 
 HTTP --> HyperText Transfer Protocol.
 It allows to access any page that has been registered under 
-the HTTP protocol + Foundtion of communication on the 
+the HTTP protocol + Foundation of communication on the 
 World Wide Web.
 
 It has a mechanism of Sending REQUEST / Accepting RESPONSES
@@ -53,3 +53,55 @@ CSS --> How do we describe the entity ?
 JAVASCRIPT --> What kind of actions does the entity do ?
 
 W3Schools , MDN --> Other Important Resources for Web
+
+
+What is HTML 5 ??
+It represents two different concepts :- 
+1] It is a newer version of the language HTML , with new elements
+, attributes and behaviours.
+2] It also refers to large set of technologies that allows building
+of more diverse and powerful web sites and applications.
+
+HTML5 does help us create a version of the document that supported by different 
+browsers.
+
+Inline Elements Vs Block Elements.
+
+Inline Elements fit in alongside other elements. --> (Span Tag).
+Block Level Elements take up a whole "block" of space / wants to have it's own block. --> (Div tag)
+
+Span Tag :- helps you to access , modify the specific content / piece of text within elements of HTML 
+based on your needs.
+
+<hr> --> This helps you to draw a horizontal line in HTML document.
+<br> --> This tag helps us create a separate line between different 
+text elements within HTML document.
+<sup> , <sub> --> HTML element specifies inline text which is to be displayed as 
+superscript for solely typographical reasons. 
+
+Semantic Markup :- 
+Semantic --> relating to meaning.
+"What purpose or role does that HTML element have ?" --> This is meaning of Semantic.
+
+<header> , <footer> all behave like div's but they act and have specific meaning.
+
+Instead of Divs , we can use tags like :- 
+<section>
+<article>
+<nav>
+<main>
+<header>
+<footer>
+<aside>
+<summary>
+<details>
+
+Header --> It includes the introductory content.
+Footer --> It is the last part of every web page / similar content to header.
+
+Emmet is a tool that helps us write HTML Code , embeded syntax where 
+when you just type in the keyword , the entire HTML code relevant to the keyword 
+is shown to HTML Document.
+
+Always hit TAB when you finish writing the Emmet Syntax
+Just look at the documentation.

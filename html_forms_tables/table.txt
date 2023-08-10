@@ -1,0 +1,17 @@
+Tables are structured sets of data , made up of 
+rows and columns . They can be a great way of 
+displaying data clearly.
+ 
+Why we should make you of a table ?
+It helps you to show and visualize the data in a more 
+formal and structured manner or in tabluar format.
+
+Table Elements.
+<table>
+<td>
+<tr>
+<thead>
+<tboady>
+<tfoot>
+<colgroup>
+<caption>

@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+    text-decoration: #f78120 underline wavy;
+}
+
+p {
+    font-weight: normal;
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+}

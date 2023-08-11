@@ -1,0 +1,18 @@
+ h2 {
+     color: red;
+     background-color: rgb(255,255,255);
+ }
+
+ button {
+    color : magenta;
+    background-color: cyan;
+    cursor: pointer;
+ }
+
+ p {
+    color : olivedrab;
+ }
+
+ body {
+    background-color: black; 
+ }

@@ -1,0 +1,64 @@
+CSS --> How we do describe the entity , it helps us add attractive / visual 
+features on the entity.
+
+CSS is a language for describing how documents are presented visually - 
+how they are arranged and styled.
+
+CSS Rules :- 
+(almost) everything you do in CSS 
+follows this basic pattern.
+
+selector {
+    property : value;
+}
+
+Eg :- Make all h1 elements purple
+h1 {
+    color : purple,
+}
+
+img {
+    width : 100px;
+    height : 200px;
+}
+
+Select every other text input and give it a red border : 
+input[type="text"] : nth-of-type(2n) {
+    border : 2px solid red.
+}
+
+There are so many CSS Border properties , Don't Worry.
+Just go through MDN docs and don't worry about anything.
+
+How do we include styles ?? 
+1] You can write your styles directly inline on each element , 
+but this is NOT GOOD IDEA most of the time.
+2] You can write your styles inside of a <style> element.
+This is easy , but it ameks it impossible to share styles 
+between documents. Not recommended either.
+3] Write your styles in a .css file , and then include using
+a <link> in the head of your html document. (Recommended).
+
+Whenever there is a CSS file , always connect it with your HTML file
+using the link tool / make sure you connect it with proper path.
+
+HTML Color Picker :- https://htmlcolorcodes.com/color-picker/  (For reference)
+
+RGB --> It's how we can form different combinations of the color.
+(RED,GREEN,BLUE).
+While defining a color in CSS , either use rgb() or hexadecimal number 
+to get the RGB color.
+
+HEX --> Still red , green and blue channels.
+Each range from 0 - 255 BUT represented with hexadecimal.
+
+#ffff00 --> Blue range  
+
+Semi Colon is important when defining a property with the selector in the 
+css file.
+
+px --> by far the most commonly used absolute unit.
+1px does not necessarily equal the width of exactly one pixel !.
+Not recommended for responsive websites.
+
+https://www.cssfontstack.com

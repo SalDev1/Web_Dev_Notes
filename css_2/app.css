@@ -1,0 +1,22 @@
+body {
+  color: purple;
+}
+
+h1 {
+    color : blue;
+}
+
+section {
+    color: aqua;
+}
+
+form {
+    color : greenyellow;
+}
+/* 
+  If some element don't inherit the properties 
+  then , explicitly used inherit attribute.
+*/
+button , input{
+    color : inherit;
+}

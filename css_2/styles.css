@@ -1,0 +1,100 @@
+/* * {
+    background-color: cyan;
+} */
+
+body {
+    background-color: whitesmoke;
+}
+
+button {
+    font-size : 16px
+}
+
+h1,h2 {
+    color : darkslateblue;
+}
+
+button {
+    color : white;
+    background-color : rgb(54, 61, 254);
+}
+
+#signup {
+    background-color: black;
+}
+
+.tag {
+    color : red;
+}
+
+.post a {
+    color : purple;
+}
+
+footer a {
+    color : #e63946;
+}
+
+input + button {
+    background-color : pink;
+}
+h2 + button {
+    background-color: magenta;
+}
+
+footer > a {
+    color : brown;
+}
+
+input[type = "password"] {
+    color : red;
+}
+
+/* section[class = "post"] {
+    background-color: purple;
+} */
+
+/* OR */
+/* section.post {
+    background-color: purple;
+} */
+
+.post a:hover {
+ color : orange;
+}
+
+.post button:active {
+    background-color : green;
+} 
+
+.post:nth-of-type(2n) {
+    background-color: rgb(211, 211, 211);
+}
+
+p::first-line {
+    color : red;
+}
+
+p::selection {
+    background-color: purple;
+}
+
+/* Talking about specificity over here 
+   .post button:hover is more calculated than button:hover.
+*/
+.post button:hover {
+    cursor: pointer;
+    background-color: rgb(130, 130, 255);
+}
+
+button:hover {
+    background-color: olive;
+    /* font-size : 10px; */
+}
+/* 
+button {
+    background-color: magenta  !important;
+} */
+section {
+    color : aqua;
+}

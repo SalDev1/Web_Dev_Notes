@@ -1,0 +1,80 @@
+CSS Box Model.
+In this , we are going to learn how border , margin ,
+padding , etc are assigned and placed on an element in the 
+html document.
+
+This is the workflow of it.
+ _  __ _ _ _ _ _ _ _ __                 _ __ _ __ 
+ |    _Padding _ _ _     |             |
+ |  |              |     |             |
+ |  |  Content Box |     |   Margin    |
+ |  |_ _ _ _ _ _ _ |     |             |
+ |_ _ _ __ ___ _ _ __ _  |             | __ _ _ _ __ 
+       Border
+
+This is how Chrome tools show different attributes of the 
+certain element when you insept it.
+
+We know about the width and height of each element.
+
+Border :
+We can do many things with border and eventually you get to know 
+the properties 
+
+Padding :- 
+Real Life Example :
+When you are shipping something that is fragile , you have the actual
+content , then you have your box border and in between the two ,there is some
+padding where it is bubble wrap or styrofoam or bubble wrap.
+
+Padding lies between the content box and border.
+
+Padding Shorthand property.
+
+Apply to all four sides.
+padding : 10px;
+
+Apply vertical + horizontal
+padding : 5px 10px 
+
+Apply top , horizon , bottom
+padding : 1px 2px 2px;
+
+Apply top , right, bottom , left
+padding : 5px 1px 0 2px;
+
+Margin :- 
+It is the space considered outside of the border between the element 
+and something else.
+
+Display :- 
+Three types of display.
+Inline :- Width and height are ignored. Margin and padding push elements away horizontally but not
+vertically.
+Block :- Block elements break the flow of a document. Width, Height , Margin and Padding 
+are respected.
+Inline-Block :- Behaved like an inline element except Width,Height,Margin and Padding are 
+respected.
+
+CSS Units Relatively Used :- 
+1] EM 
+2] REM 
+3] VH
+4] VM
+5] %
+
+% --> 
+width -> 50% --> half the width of the parent.
+line-height -> 50% --> half the font-size 
+of the element itself.
+
+Em --> Relative Units 
+1em --> equals the font-size of the parent. 
+2em --> twice the font size of the parent.
+
+Rems --> Relative to the root html element's font size.
+Often easier to work with. 
+
+If the root font-size is 20px , 
+1rem is always 20px;
+2rem is always 40px;

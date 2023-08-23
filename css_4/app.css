@@ -1,0 +1,21 @@
+section {
+    width : 500px;
+    height : 500px;
+    background-color: magenta;
+}
+
+#rgba {
+    width : 50%;
+    height : 50%;
+    /* The fourth parameter will deal with transperency of the color 
+    in the rgba function */
+    background-color: rgb(255,255,255,0.7);
+}
+
+/* Opacity sets the opacity of this element. */
+#opacity {
+    width : 50%;
+    height :50%;
+    background-color: yellow;
+    opacity: 0.5;
+}

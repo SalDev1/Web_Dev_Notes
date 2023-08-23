@@ -1,0 +1,14 @@
+section {
+    width : 80%;
+    height : 800px;
+    background-color: purple;
+    margin : 0 auto;
+    background-image: url("https://images.immediate.co.uk/production/volatile/sites/3/2023/03/goku-dragon-ball-guru-824x490-11b2006.jpg?resize=768,574");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 100px;
+    color : white;
+}

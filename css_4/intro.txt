@@ -1,0 +1,46 @@
+Let's learn about the property name : position .
+
+It's describes how the element should be positioned in the 
+document.
+
+top , right , bottom , left --> determine the final location of 
+positioned elements.
+
+Static --> keeps things static 
+Relative --> putting the element wherever we want
++ destroying the normal flow of the document + more
+like not following the normal rules of the website. 
+
+Absolute :- Element is removed from the normal 
+document flow and no space is created for the
+element in the page layout.
+**We can place it freely closed to its closest position 
+ancestor / parent container that has relative as its position**.
+
+Fixed : If something / some element is fixed , it is going to stay up 
+there. It is positioned relative to the initial containing 
+block established.
+It is useful for navbar.
+
+Refer the MDN docs to know more about the 
+transition effects.
+
+CSS Transform plays a big role in creating transition effect.
+
+Knowing how to use the background image in the background 
+is very important.
+
+How to center a div ?? 
+
+Method 1 :-
+display : flex 
+align-items : center 
+justify-content : center 
+height : 100vh;
+
+Method 2 :- 
+margin : 0 auto;
+
+Google Fonts is kinda crazing tho.
+Use Link tag and find out the font family link from 
+the google fonts and attached to it.

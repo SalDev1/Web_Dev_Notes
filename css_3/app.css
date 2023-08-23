@@ -1,0 +1,38 @@
+body {
+    margin : 0;
+}
+div {
+    width : 200px;
+    height : 200px;
+}
+
+h2 {
+    width: 100px;
+    padding-left : 100px;
+    padding-bottom: 50px;
+    background-color: pink;
+}
+
+#one {
+    background-color: purple;
+    border: 5px solid black;
+    /* This property covers the entire width and height assigned to it before , with the 
+    content + border */
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#two {
+    background-color: rgb(194, 16, 194);
+    border : 3px dashed blue;
+    box-sizing: border-box;
+}
+
+#three {
+    background-color: rgb(59, 7, 59);
+}
+
+button {
+    margin-top: 10px;
+    padding : 10px 20px 30px 40px; 
+}

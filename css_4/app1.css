@@ -1,0 +1,41 @@
+div {
+   width : 100px;
+   height : 100px;
+   background-color: red;
+   display: inline-block;
+   border : 3px solid black;
+   margin : 10px;
+}
+
+#middle {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+#static #middle {
+   position : static;
+   top : 100px;
+}
+
+#relative #middle {
+   position: relative;
+   top : 50px;
+   left : 50px;
+}
+
+#absolute {
+    position: relative;
+}
+
+#absolute #middle {
+   position: absolute;
+   top : 1px;
+   left : 1px;
+}
+
+#fixed #middle {
+    position : fixed;
+    top : 0;
+    left : 400px;
+}

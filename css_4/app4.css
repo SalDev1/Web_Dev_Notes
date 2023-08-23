@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 100vh;
+}
+
+button {
+    padding: 1em 2em;
+    font-size: 28px;
+    border: 3px solid orangered;
+    color :orangered;
+    background-color: rgb(37, 37, 37);
+    cursor: pointer;
+    transition: 1s;
+    display: inline-block;
+}
+
+button:hover {
+   background-color : white;
+   color : blue;
+   border: 3px solid blue;
+   transform: translateY(-0.5em);
+   box-shadow: 0 0.5em 0.5em -0.4em;
+}

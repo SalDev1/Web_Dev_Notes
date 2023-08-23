@@ -1,0 +1,56 @@
+section {
+    background-color: #6d6875;
+    width : 800px;
+    height : 800px;
+}
+
+div {
+    background-color: #e5989b;
+    width : 50%;
+    height : 50%;
+}
+
+h1 {
+    font-size : 40px;
+    border : 1px solid black;
+    line-height: 200%;
+}
+
+h2 {
+    font-size: 2em;
+    margin-left : 1em;
+}
+h3 {
+    font-size: 1.5em;
+}
+p {
+    font-size: 0.8em;
+}
+
+article {
+    font-size: 50px;
+}
+
+button {
+    font-size : 30px;
+    padding :0 30px;
+    border-radius: 0.5em;
+    color : white;
+}
+/* The disadvantage of stack is that they can grow 
+and shrink quickly. */
+ul {
+    font-size: 1.5em;
+}
+
+#rems h3{
+  font-size : 3rem;
+}
+
+#rems h3 {
+    font-size: 2rem;
+}
+
+#rems ul {
+    font-size : 0.8rem;
+}
